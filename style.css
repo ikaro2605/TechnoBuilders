@@ -180,26 +180,35 @@ a{
 
 #intro-qualities{
     background: #2b2c2c;
+    color: #97a19f;
     font-size: 1rem;
     padding: 7%;
 }
 
 #qualities{
-    background: wheat;
     height: auto;
     margin: 0px;
-    /* padding-left: 23.33%; */
 }
 
 .container-calidades{
-    background-color: aqua;
-    display: inline-block; width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin-top: 40px;
+    padding: 10px;
 }
 
 .calidades-types{
-    background-color: #E1306C;
-    text-align: center;
-    height: 65px;
+    background-color: #5fb7fa7a;
+    width: 400px;
+    height: 75vh;
+    margin: 5px;
+    padding: 30px;
+}
+
+.column-inner{
+    width: 100%;
 }
 
 
@@ -226,18 +235,15 @@ a{
 }
 
 .getintouch-email{
-    /* float: right; */
     max-width: 330px;
     max-height: 200px;
     width: 430px;
-    /* height: 00px; */
     padding: 20px;
     margin: auto;
 }
 
 input, select{
     background-color: #3a4141cd;
-    color: #f1fffd;
     color: #5fb7fa;
     box-sizing: border-box;
     border: none;
