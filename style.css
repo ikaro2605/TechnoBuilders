@@ -1,0 +1,325 @@
+html{
+    scroll-behavior: smooth;
+    scroll-margin: 145px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  #send-message-instagram{
+    background-color: #E1306C;
+    color: #fff;
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 45px;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 100;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#send-message-whatsapp{
+    background-color: #35a812;
+    color: #fff;
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 45px;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 100;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+body{   
+    background-color: #f1fffd;
+    font-family: 'Lekton', 'Open Sans', 'Lato', 'HelveticaNeue', helvetica, arial, sans-serif;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body ::selection{
+    background-color: #dae6e4;
+}
+
+a{
+    list-style-type:none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#navigation{
+    display: inline-block;
+    top: 0px;
+    width: 100%;
+    min-height: 80px;
+    max-height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav{
+    background-color: #f1fffd;
+    box-shadow: 0px 0px 8px #dae6e4;
+    justify-content: right;   
+    position: fixed;
+    list-style: none;
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+
+.topnav a {
+    color: #202121;
+    float: right;
+    font-size: 0.8em;
+    margin-top: 2.3%;
+    padding: 0 40px;
+    font-size: 0.97rem;
+
+}
+
+.topnav a:hover {
+    color: #5fb7fa;
+    transform: scale(1.1,1.1);
+}
+
+.topnav img{
+    float: left;
+    margin-top: 5.5%;
+    width: 100px;
+}
+.logo-nav{
+    float: left;
+}
+
+.logo-nav img{
+    width: 160px;
+}
+
+/*  */
+/* 
+#home{
+    position: relative;
+} */
+
+.main-content-home{
+    background-color: #202121;
+    color: #97a19f;
+    vertical-align: right;
+    padding-left:9.5%;
+    padding-right:9.5%;
+    font-size:1.7rem;
+    padding: 10% 9.5%;
+    margin-bottom:10%;
+    min-width: 325px;
+    transform: translate(0px, 0px, 0px);
+    opacity: 1;
+}
+
+.main-content-home h3{
+
+    font-size: 25px;
+}
+
+.button-about{
+    background-color: #5fb7fa7d;
+    border: 10px;
+    color: #202121;
+    position: static;
+    list-style-type:none;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 15px 65px;
+    margin: 0;
+    margin-bottom: 33.651px;
+}
+
+.button-about:hover{
+    background-color: #5fb7fa;
+    color: #202121;
+    box-shadow: 0px 0px 8px #5fb7fa;
+    transform: scale(1.03,1.03);
+}
+
+
+
+
+
+#footer{
+    background-color: #202121;
+    text-align: center;  
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    max-height: 100%; 
+}
+
+.footer-text {
+    color: #97a19f;
+    display: inline-block;
+    margin: 50px 0px;
+}
+
+.position-of-contents{
+    float: left;
+    margin-left: 10%;
+}
+
+.getintouch-email{
+    /* float: right; */
+    max-width: 330px;
+    max-height: 200px;
+    width: 430px;
+    /* height: 00px; */
+    padding: 20px;
+    margin: auto;
+}
+
+input, select{
+    background-color: #3a4141cd;
+    color: #f1fffd;
+    color: #5fb7fa;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 35%;
+    height: 30px;
+}
+
+input[type="text"]{
+    width: 100%
+}
+
+input[type="email"]{
+    width: 100%;
+    height: 40px;
+}
+
+.message{
+    overflow-x: auto;
+    width: 71%;
+    height: 70px;
+}
+
+::placeholder{
+    color: #5fb7fa;
+    padding: 7px;
+    opacity: 1;
+    height: 65px;
+}
+
+option{
+    color: #5fb7fa;
+    opacity: 1; 
+}
+
+.send-info{    
+    background-color: #5fb7fa7d;
+    color: #202121;
+    text-align: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+}
+.send-info:hover{
+    background-color: #5fb7fa;
+    color: #202121;
+    box-shadow: 0px 0px 8px #5fb7fa;
+    transform: scale(1.03,1.03);
+}
+
+.lefttext-info-contacts{
+    color: #97a19f;
+    float: left;
+    margin: 10px 10px;
+}
+
+#credits{
+    color: #202121;
+    width: 100%;
+    height: 15%;
+}
+
+#credits h2{
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    @media screen and (max-width: 915px) {
+        .topnav a:not(:first-child) {display: none;}
+
+        .topnav a.icon {
+        float: right;
+        display: block;
+        }
+
+        .initial-img{
+            height: 100%;
+        }
+    }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+
+    .topnav.responsive {position: fixed;}
+    .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    right: 20px;
+    top: 18px;
+    }
+    .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    clear: left ;
+    margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-height: 500px){
+    .topnav{position: static;}
+    .topnav.responsive {position: absolute;}
+}
